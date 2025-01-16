@@ -3,3 +3,8 @@ beautifulsoup4
 coverage
 pytest
 pytest-cov
+mysql-connector-python
+SQLAlchemy
+psycopg2
+pymongo
+requests
