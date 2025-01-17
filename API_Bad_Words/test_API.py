@@ -1,11 +1,12 @@
 import requests
 import json
+from APIKay import kay
 
 url = "https://api.apilayer.com/bad_words?censor_character=%"
 
 payload = "popit porno huy pidor fuck".encode("utf-8")
 headers= {
-    "apikey": "apwq3h9FYmzTozaEzfvZhDm3on11qd4Z"
+    "apikey": kay
 }
 
 response = requests.request("POST", url, headers=headers, data = payload)
